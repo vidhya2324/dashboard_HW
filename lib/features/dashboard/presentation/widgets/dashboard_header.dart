@@ -52,9 +52,9 @@ class DashboardHeader extends StatelessWidget {
             ),
           ),
 
-          _IconWithDot(assetPath: 'lib/assets/images/chat.png'),
+          _IconWithDot(assetPath: 'assets/images/chat.png'),
           const SizedBox(width: AppSpacing.sm),
-          _IconWithDot(assetPath: 'lib/assets/images/bell.png'),
+          _IconWithDot(assetPath: 'assets/images/bell.png'),
         ],
       ),
     );

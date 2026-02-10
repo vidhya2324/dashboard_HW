@@ -31,7 +31,7 @@ class StatCard extends StatelessWidget {
         ],
       ),
          child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.center,
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
           // ✅ STAT NUMBER — RIGHT

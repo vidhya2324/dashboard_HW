@@ -1,5 +1,6 @@
+import 'package:dashboardca/features/dashboard/presentation/pages/main_shell_page.dart';
 import 'package:flutter/material.dart';
-import 'features/dashboard/presentation/pages/dashboard_page.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +14,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Millgate',
-      home: const DashboardPage(),
+      home:  MainShellPage(),
+       
+
     );
   }
 }
