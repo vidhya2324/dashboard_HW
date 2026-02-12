@@ -1,4 +1,4 @@
-import 'package:dashboardca/features/dashboard/presentation/pages/main_shell_page.dart';
+import 'package:dashboardca/auth/login_page.dart';
 import 'package:flutter/material.dart';
 
 
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Millgate',
-      home:  MainShellPage(),
+      home:  LoginPage(),
        
 
     );
